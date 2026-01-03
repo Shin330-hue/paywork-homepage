@@ -20,6 +20,18 @@ export default function Footer() {
             <p className="text-gray-400 text-xs sm:text-sm max-w-md">
               {SITE_CONFIG.description}
             </p>
+            <div className="mt-3 text-gray-500 text-xs space-y-0.5">
+              <p>返金方針: 原則返金不可／誤決済は連絡で対応</p>
+              <p>
+                連絡先:{' '}
+                <a
+                  href="mailto:shinsukedev.apps@gmail.com"
+                  className="text-purple-400 hover:text-purple-300 underline transition-colors"
+                >
+                  shinsukedev.apps@gmail.com
+                </a>
+              </p>
+            </div>
           </div>
 
           <div className="flex items-center gap-3 sm:gap-4">

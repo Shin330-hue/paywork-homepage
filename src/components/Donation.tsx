@@ -52,6 +52,25 @@ export default function Donation() {
           <p className="text-center text-gray-500 text-xs sm:text-sm mt-6">
             ※ Stripeを通じて安全に決済されます
           </p>
+
+          {/* Stripe審査用情報 */}
+          <div className="mt-6 pt-6 border-t border-gray-700/50 text-center space-y-1">
+            <p className="text-gray-400 text-xs sm:text-sm">
+              このページはコンテンツ制作の応援（投げ銭）ページです。
+            </p>
+            <p className="text-gray-400 text-xs sm:text-sm">
+              返金方針: 原則返金不可／誤決済は連絡で対応
+            </p>
+            <p className="text-gray-400 text-xs sm:text-sm">
+              連絡先:{' '}
+              <a
+                href="mailto:shinsukedev.apps@gmail.com"
+                className="text-purple-400 hover:text-purple-300 underline transition-colors"
+              >
+                shinsukedev.apps@gmail.com
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
